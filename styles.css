@@ -1,4 +1,4 @@
-:root {
+/*:root {
     --grid-cols: 1;
     --grid-rows: 1;
 }
@@ -16,4 +16,10 @@
     border: 0.5px solid #ddd;
     text-align: center;
     color: white
+}*/
+
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
 }

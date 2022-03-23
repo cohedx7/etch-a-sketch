@@ -4,7 +4,21 @@
     <title>Etch-a-Sketch</title>
     <body>
         <div id="container">
-
+            <div class="title">Sketch Pad</div>
+            <div class="content">
+                <div class="board"></div>
+                <div class="buttons">
+                    <button>Black</button>
+                    <button>White</button>
+                    <button>Rainbow</button>
+                    <button>Reset</button>
+                </div>
+                <div>
+                    <input type="text" placeholder="Size of Board" 
+                    value="16" onchange="changeSize(this.value)">
+                    <button>Set Size</button>
+                </div>
+            </div>
         </div>
     </body>
     <link rel="stylesheet" href="styles.css">
