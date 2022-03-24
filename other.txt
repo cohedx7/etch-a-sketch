@@ -1,0 +1,35 @@
+/*const container = document.getElementById('container');
+
+function makeRows(rows, cols) {
+    container.style.setProperty('--grid-rows', rows);
+    container.style.setProperty('--grid-cols', cols);
+    for (let c = 0; c < (rows * cols); c++) {
+        let cell = document.createElement('div');
+        //cell.innerText = (c);
+        container.appendChild(cell).className = "grid-item";
+    }
+}
+
+makeRows(16, 16);*/
+
+---
+
+/*:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+
+#container {
+    display: grid;
+    grid-gap: 0em;
+    grid-template-rows: repeat(var(--grid-rows), 32px);
+    grid-template-columns: repeat(var(--grid-cols), 32px);
+    justify-content: center;
+}
+
+.grid-item {
+    padding: 1em;
+    border: 0.5px solid #ddd;
+    text-align: center;
+    color: white
+}*/
